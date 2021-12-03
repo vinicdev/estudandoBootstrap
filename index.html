@@ -28,7 +28,7 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav  class="navbar navbar-expand-lg fixed-top">
+            <nav  class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency"> hDC Agency
                 </a>
@@ -298,9 +298,89 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Newslatter  -->
+            <div id="news-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Fique por dentro das novidades</h3>
+                        </div>
+                    </div>
+                    <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
+                    <form action="">
+                        <input type="e-mail" calss="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                        <input type="submit" id="news-btn" value="Inscrever">                   
+                    </form>
+                </div>
+            </div>
+
+            <!-- Call To Action -->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Deseja fazere um orçamento sem compromisso</p>
+                        <button class="main-btn" id="call-btn">Orçar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
+    <!-- Rodapé -->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (41)99999-9999</p>
+                        <p><span class="contact-title">Horarios:</span> 8:00 - 19:00</p>
+                    </div>
+
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail:</span> contato@hdcafency.com</p>
+
+
+                    </div>
+
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha tomar um café:</span> rua: Lorem Ipsum, 115</p>
+                    </div>
+
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos deixe uma mensagem:</p>
+                    </div>
+                    
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem ..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>made with 💕 by <a href="https://github.com/vinicxxl" target="_blank">Vinicius Cardoso</a> &copy; 2021 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
     <script src="js/scripts.js"></script>
 </body>
 </html>
