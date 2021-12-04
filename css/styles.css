@@ -597,3 +597,20 @@ header, .navbar {
         margin-bottom: 0;
     }
 }
+
+@media(max-width: 375px) {
+    /* About */
+    .img-fluid {
+        margin-bottom: 30px;
+    }
+
+    /* news */
+    #email-input {
+        width: 85%;
+    }
+    
+    /* Call to action */
+    #call-area p {
+        font-size: 12px;
+    }
+}
